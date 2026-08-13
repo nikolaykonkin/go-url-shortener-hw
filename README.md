@@ -36,16 +36,20 @@ URL shortener HTTP service in Go with in-memory storage, URL validation, table-d
 
 ```
 ├── README.md
-├── img/                          // скриншоты для README
-│   ├── test-verbose.png
+├── img/                                  // скриншоты для README
+│   ├── test-verbose-1.png
+│   ├── test-verbose-2.png
 │   ├── test-coverage.png
-│   └── coverage-html.png
+│   ├── coverage-html-shortener-1.png
+│   ├── coverage-html-shortener-2.png
+│   ├── coverage-html-main-1.png
+│   └── coverage-html-main-2.png
 └── urlshortener/
     ├── go.mod
-    ├── main.go                   // HTTP-сервер и маршруты
-    ├── shortener.go              // Бизнес-логика сокращения URL
-    ├── shortener_test.go         // Unit-тесты бизнес-логики (table-driven)
-    └── handlers_test.go          // Тесты HTTP-обработчиков (httptest)
+    ├── main.go                           // HTTP-сервер и маршруты
+    ├── shortener.go                      // Бизнес-логика сокращения URL
+    ├── shortener_test.go                 // Unit-тесты бизнес-логики (table-driven)
+    └── handlers_test.go                  // Тесты HTTP-обработчиков (httptest)
 ```
 
 ---
